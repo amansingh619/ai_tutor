@@ -1,4 +1,4 @@
-<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/2bf47fed-9175-4f13-a6c9-ec5a76c3088c" /># Voice AI Language Tutor
+<img width="512" height="512" alt="image" src="https://github.com/user-attachments/assets/2bf47fed-9175-4f13-a6c9-ec5a76c3088c" /># Voice AI Language Tutor
 
 A voice-first AI tutor that helps learners practice a new language through natural conversation.
 
