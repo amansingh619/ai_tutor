@@ -1,14 +1,16 @@
 import os
+from dotenv import load_dotenv
+load_dotenv()
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 
 class Settings:
     def __init__(self):
-        self.LIVEKIT_URL = os.getenv("LIVEKIT_URL", "ws://localhost:7880")
-        self.LIVEKIT_API_KEY = os.getenv("LIVEKIT_API_KEY", "")
-        self.LIVEKIT_API_SECRET = os.getenv("LIVEKIT_API_SECRET", "")
+        self.LIVEKIT_URL = os.getenv("LIVEKIT_URL")
+        self.LIVEKIT_API_KEY = os.getenv("LIVEKIT_API_KEY")
+        self.LIVEKIT_API_SECRET = os.getenv("LIVEKIT_API_SECRET")
 
-        self.HF_TOKEN = os.getenv("HF_TOKEN", "")
+        self.HF_TOKEN = os.getenv("HF_TOKEN")
         self.HF_LLM_MODEL = os.getenv("HF_LLM_MODEL", "Qwen/Qwen2.5-72B-Instruct")
         self.LLM_TEMPERATURE = float(os.getenv("LLM_TEMPERATURE", "0.7"))
         self.LLM_MAX_TOKENS = int(os.getenv("LLM_MAX_TOKENS", "512"))
