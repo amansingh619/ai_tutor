@@ -1,4 +1,4 @@
-<img width="512" height="512" alt="image" src="https://github.com/user-attachments/assets/2bf47fed-9175-4f13-a6c9-ec5a76c3088c" /># Voice AI Language Tutor
+# Voice AI Language Tutor
 
 A voice-first AI tutor that helps learners practice a new language through natural conversation.
 
@@ -72,7 +72,7 @@ Current support:
 The system detects the language being spoken and attempts to use the correct TTS voice.
 
 # Architecture
-<img width="1024" height="1536" alt="c2603c29-7348-48e3-a271-63ee03688a4a" src="https://github.com/user-attachments/assets/928dec96-26cd-4d0b-a7e9-b50d7dfbe59f" />
+<img width="512" height="512" alt="c2603c29-7348-48e3-a271-63ee03688a4a" src="https://github.com/user-attachments/assets/928dec96-26cd-4d0b-a7e9-b50d7dfbe59f" />
 
 
 # Trade-Offs Made
